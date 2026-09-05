@@ -30,27 +30,15 @@ LibraryManagementSystem/
 - **DSA**: manual binary search implementation (`Library.searchById`).
 - **Basic I/O**: `Scanner` for console input, input validation for numbers.
 
+3. Follow the on-screen menu to add, search, issue, or return books.
 ## How to Run
-1. Make sure you have a JDK installed (Java 8 or later).
-2. From the project root:
-   ```bash
+```Make sure you have a JDK installed (Java 8 or later).
+From the project root:
+bash
    cd src
    javac *.java
    java Main
-   ```
-3. Follow the on-screen menu to add, search, issue, or return books.
-
-## Pushing to GitHub
-```bash
-cd LibraryManagementSystem
-git init
-git add .
-git commit -m "Initial commit: Library Management System in Java"
-git branch -M main
-git remote add origin <your-empty-github-repo-url>
-git push -u origin main
 ```
-
 ## Possible Extensions
 - Persist data to a file or a database instead of in-memory storage.
 - Add a `Member`/`User` class to track who has borrowed which book.
